@@ -1,0 +1,38 @@
+h2{
+    color: #e719d6;
+    text-align: center;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.middle{
+    margin: 100px 0;
+  }
+  p {
+    line-height: 2;
+}
+h3{
+    color:blue;
+}
+.skill-row{
+    width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.contact-container {
+    background-color: #66bfbf;
+    padding: 70px;
+    justify-content: center;
+    text-align: center;
+  }
+  body{
+    background-image: "./assets/images/flower-background.avif";
+  }
+ 
+  
